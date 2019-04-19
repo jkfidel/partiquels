@@ -1,0 +1,32 @@
+<div class="nav-bar" [ngClass]="{'stickynav': scrll}">
+	<div class="nav">
+		<p class="brand">que</p>
+		<!-- <div class="nav-burger">
+			<input type="checkbox" id="spinner-form" />
+			<label for="spinner-form" class="spinner-spin">
+			  <div class="spinner diagonal part-1"></div>
+			  <div class="spinner horizontal"></div>
+			  <div class="spinner diagonal part-2"></div>
+			</label>
+		</div> -->
+	</div>
+	<div class="mobile-nav" (click)="mobclck()">
+	  <span [ngClass]="{'open': clck}"></span>
+	</div>
+	<div class="mobile" [ngClass]="{'navopen': clck}">
+	  <div class="centeredmenu">
+	    <div class="menu">
+	      <a href="">work</a>
+	      <a href="">about</a>
+	      <a href="">culture</a>
+	      <a href="">contact</a>
+	      <div class="social">
+	        <i class="fa fa-facebook" aria-hidden="true"></i>
+	        <i class="fa fa-vimeo" aria-hidden="true"></i>
+	        <i class="fa fa-linkedin" aria-hidden="true"></i>
+	        <i class="fa fa-instagram" aria-hidden="true"></i>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+.section-header .first-headline {
+	font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: rgba(241,196,15,0.3);
+    text-transform: uppercase;
+}
+
+.section-header .second-headline {
+	font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -45px;
+}

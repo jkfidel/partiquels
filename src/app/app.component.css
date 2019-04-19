@@ -1,0 +1,84 @@
+.bannerarea {
+    max-height: 952px;
+    position: relative;
+    width: 100%;
+    height:100vh;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../assets/photo-1513530534585-c7b1394c6d51.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+.bannerarea particles{
+    z-index: -1;
+}
+.banner-table {
+    display: table;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+.banner-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-table .col-md-12{
+    padding: 0 15px;
+}
+.banner-table .col-md-12 h2 {
+    font-size: 3.8em;
+    font-weight: 300;
+    margin: 0; 
+    color: #ffffff;
+}
+.banner-table .col-md-12 h3 {
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.banner-table .col-md-12 h3 span {
+    background: #8eca58;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+}
+.banner-btn {
+    border: 2px solid #8eca58;
+    color: #ffffff;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+}
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+}
+}
